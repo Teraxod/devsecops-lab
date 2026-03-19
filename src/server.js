@@ -67,4 +67,11 @@ if (process.env.NODE_ENV !== 'production') {
   });
 }
 
+app.get('/api/user', (req, res) => {
+  const userId = req.query.id;
+  const query = "SELECT * FROM users WHERE id = " + userId;
+  res.json({ query });
+});
+ 
+
 app.listen(3000, () => console.log('✅ Secure server running'));

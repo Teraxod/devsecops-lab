@@ -1,6 +1,6 @@
 # 🔒 DevSecOps Lab
 
-![Security](https://github.com/<votre-username>/<votre-repo>/workflows/DevSecOps%20Pipeline/badge.svg)
+![Security](https://github.com/Teraxod/devsecops-lab/workflows/DevSecOps%20Pipeline/badge.svg)
 
 Pipeline CI/CD sécurisé avec détection automatique des vulnérabilités.
 

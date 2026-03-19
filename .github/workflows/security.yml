@@ -202,3 +202,4 @@ jobs:
           else
             echo "✅ All security checks passed" >> $GITHUB_STEP_SUMMARY
           fi
+
